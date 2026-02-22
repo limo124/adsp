@@ -4,8 +4,44 @@
   "description": "AdsPilot AI - Backend API for Google Ads OAuth and Campaign Scanning",
   "main": "server-final.js",
   "scripts": {
-    "start": "node server-final.js",
-    "dev": "nodemon server-final.js"
+"start": "node server.js"
+```
+4. **Commit changes**
+
+Railway va **redéployer automatiquement!**
+
+---
+
+### **OPTION 2: Renommer les fichiers**
+
+Dans votre repo GitHub, renommez:
+
+- `server-final.js` → `server.js`
+- `auth-handler-final.js` → `auth-handler.js`
+- `package-final.json` → `package.json`
+
+**Comment renommer sur GitHub:**
+1. Cliquez sur le fichier
+2. Cliquez sur "Edit" (✏️)
+3. En haut, changez le nom du fichier
+4. Commit
+
+---
+
+## 📋 VÉRIFICATION - Noms Corrects
+
+Votre repo doit avoir **EXACTEMENT**:
+```
+✅ server.js
+✅ auth-handler.js  
+✅ package.json
+```
+
+**PAS:**
+```
+❌ server-final.js
+❌ auth-handler-final.js
+❌ package-final.json    "dev": "nodemon server-final.js"
   },
   "keywords": [
     "google-ads",
